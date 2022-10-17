@@ -112,6 +112,11 @@ p {
 
  @media screen and (min-width: 1100px){
 
+    .stranka {
+        max-width: 1040px;
+        margin: 0 auto;
+    }
+
     .uvod {
         display: flex;
     }
@@ -145,4 +150,6 @@ p {
     .nase2 {
         order: 1;
     }
+
+
  }

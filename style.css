@@ -115,23 +115,33 @@ p {
     .stranka {
         max-width: 1040px;
         margin: 0 auto;
+        text-align: left;
+        /*padding: 80px;*/
     }
 
     .uvod {
         display: flex;
+        gap: 60px;
     }
 
     .cestovani {
         order: 1;
         align-self: center;
-        text-align: left;
+        max-width: 490px;
         margin: 0 0 0 80px;
     }
     
     .cestovatel {
         order: 2;
         margin: 60px 100px 0 0;
+        max-width: 490px;
+    
     }
+
+    .cestovalet img {
+        max-width: 425px;
+    }
+
 
     .tlacitka {
         justify-content: flex-start;
@@ -140,16 +150,36 @@ p {
     .pruh {
         display: flex;
         align-items: center;
+        gap: 60px;
         margin-top: 80px;
     }
 
     .nase1 {
         order: 2;
+        margin-right: 80px;
+
     }
 
     .nase2 {
         order: 1;
+        margin-left: 80px;
     }
 
+    .ikonky{
+        text-align: center;
+        flex-basis: 550px;
+    }
+
+    .sluzby {
+        flex-basis: 430px;
+    }
+
+    .mistni1 {
+        margin-left: 80px;
+    }
+
+    .mistni2 {
+        margin-right: 80px;
+    }
 
  }

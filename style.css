@@ -41,7 +41,7 @@ h1 {
     background-color: #407BFF;
     position: absolute;
     bottom: 0;
-    left: 150px;
+    left: 180px;
 }
 
 
@@ -118,6 +118,12 @@ p {
 
  @media screen and (min-width: 640px){
 
+    .cestovani h1::after {
+        bottom: 0;
+        left: 250px;
+    }
+
+
     .tlacitka {
         display: flex;
         justify-content: center;
@@ -141,6 +147,11 @@ p {
 
 
  @media screen and (min-width: 1100px){
+
+    .cestovani h1::after {
+        bottom: 0;
+        left: 0px;
+    }
 
     .stranka {
         max-width: 1040px;

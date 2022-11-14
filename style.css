@@ -8,6 +8,7 @@ font-family: 'Montserrat', sans-serif;
 
 body {
     margin: 0;
+    background-color: #FAFAFA;
 }
 
 .stranka {
@@ -93,7 +94,7 @@ p {
 .ikona {
     display: flex; 
     gap: 30px;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     min-height: 80px;
     font-size: 13px;
@@ -136,6 +137,7 @@ p {
     }
 
     .ikonky {
+        text-align: center;
         display: flex;
         gap: 20px;
         padding: 20px;
